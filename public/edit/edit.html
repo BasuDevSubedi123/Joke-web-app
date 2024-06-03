@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Joke</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Welcome to the Joke Page</h1>
+        <div class="control">
+            <ul>
+                <a href="../index.html">
+                    <li>Home</li>
+                </a>
+                <a href="../CreatJoke.html">
+                    <li>Add Joke</li>
+                </a>
+                <a href="../admin/manage.html">
+                    <li>Manage</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+
+        <h2>Update Joke</h2>
+        <form id="jokeForm">
+            <div class="form-group">
+                <label for="jokeContent">Joke Question:</label>
+                <input id="jokeQuestion" type="text">
+
+                <label for="jokeContent">Joke Answer:</label>
+                <input id="jokeAnswer" type="text">
+            </div>
+            <button type="submit">Update Joke</button>
+        </form>
+    </div>
+
+    <script src="./editScript.js"></script>
+</body>
+
+</html>

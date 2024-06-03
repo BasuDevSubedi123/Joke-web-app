@@ -1,0 +1,38 @@
+.main{
+    margin-top:30px;
+}
+
+.jokes{
+    padding-left: 20px;
+    margin:30px;
+    border: 2px solid black;
+   background: linear-gradient(White, rgb(234, 234, 147) );
+   padding-bottom: 50px;
+  
+}
+
+.jokes p {
+    padding-left: 50px;
+}
+
+.adminControl{
+     display: inline-flex; 
+    float: right;
+
+}
+
+.adminControl button {
+    width: 100px;
+    background-color: red;
+    margin-right:50px ;
+}
+
+.deletebutton:hover{
+    background-color: blue;
+    transition: 1s;  
+}
+
+.editbutton:hover{
+    background-color: blue;
+    transition: 1s;
+}
